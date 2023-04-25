@@ -1,0 +1,14 @@
+program
+    int N, I, SUM;
+begin
+    read N;
+    SUM = 0;
+    I = 1;
+    while (I <= N) loop
+        SUM = SUM + I;
+        I = I + 1;
+    end;
+    write SUM;
+    write N;
+    write I;
+end
